@@ -1,0 +1,98 @@
+/* AdminDashboard.css */
+
+.dashboard-container {
+  padding: 20px;
+  background: linear-gradient(135deg, #f3f4f7, #e3e4e9);
+  min-height: 100vh;
+  margin-top: 100px;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  animation: fadeIn 1s ease-in-out;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.reservations-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.reservation-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.reservation-card:hover {
+  transform: scale(1.05);
+}
+
+.reservation-card h3 {
+  margin-top: 0;
+}
+
+.reservation-card p {
+  margin: 5px 0;
+}
+
+.status {
+  font-weight: bold;
+}
+
+.status.pending {
+  color: #ffa500;
+}
+
+.status.accepted {
+  color: #4caf50;
+}
+
+.status.declined {
+  color: #f44336;
+}
+
+.reservation-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.accept-button,
+.decline-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.accept-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.accept-button:hover {
+  background-color: #45a049;
+}
+
+.decline-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.decline-button:hover {
+  background-color: #e53935;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

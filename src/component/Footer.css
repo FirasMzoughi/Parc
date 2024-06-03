@@ -1,0 +1,45 @@
+/* Footer.css */
+
+.footer {
+  background-color: #1603c7;
+  color: #fff;
+  padding: 20px 0;
+ margin-top: 100px;
+  display: flex; /* Arrange copyright and social media side-by-side */
+  justify-content: space-between; /* Distribute elements evenly */
+  align-items: center; /* Align vertically */
+}
+
+.copyright {
+  text-align: center;
+}
+
+.copyright p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.social-media {
+  display: flex;
+  gap: 10px; /* Add spacing between icons */
+}
+
+.social-media a {
+  display: block;
+}
+
+.social-media img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s ease; /* Smooth transition for icon hover */
+}
+
+.social-media a:hover img {
+  transform: scale(1.1); /* Increase size on hover for emphasis */
+}
+
+/* Optional: Add a subtle border to the top of the footer */
+
+.footer {
+  border-top: 1px solid #ddd;
+}

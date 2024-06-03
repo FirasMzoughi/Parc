@@ -1,0 +1,52 @@
+.tarifs-container {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.tarifs-container h2 {
+  color: #0056b3;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.tarifs-container p {
+  color: #333;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.tarifs-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tarifs-list li {
+  background: #e0f7fa;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  color: #007bff;
+  font-size: 1.1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .tarifs-container {
+    padding: 15px;
+  }
+
+  .tarifs-container h2 {
+    font-size: 2rem;
+  }
+
+  .tarifs-container p, .tarifs-list li {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,78 @@
+.reservation-container {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 110px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reservation-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+select {
+  appearance: none;
+  padding-right: 30px; /* Add arrow icon */
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6"><path fill="%23333" d="M6 5.8L.4.2a.7.7 0 0 0-1 0 .7.7 0 0 0 0 1L6 7l6.6-6.8a.7.7 0 0 0 0-1 .7.7 0 0 0-1 0L6 5.8z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px;
+}
+
+.reservation-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.confirmation {
+  display: none;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #dff0d8;
+  border: 1px solid #d0e9c6;
+  border-radius: 5px;
+}
+
+.confirmation h3 {
+  margin: 0 0 10px;
+  color: #3c763d;
+}
+
+.confirmation-message {
+  margin: 0;
+}
+
+/* Media Query for Small Devices */
+@media (max-width: 576px) {
+  .reservation-container {
+    max-width: 100%;
+  }
+}
