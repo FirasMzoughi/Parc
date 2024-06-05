@@ -62,8 +62,12 @@
 .reglement-section.specific,
 .reglement-section.urgences {
   display: inline-block;
-  width: 48%;
+  width: 46%;
   vertical-align: top;
+}
+.reglement-section.urgences{
+  margin-top: -376px;
+  margin-left: 510px;
 }
 
 .reglement-section.specific {
